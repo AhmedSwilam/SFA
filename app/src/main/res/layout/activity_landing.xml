@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txt_sfa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_login_first"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="34dp"
+        android:text="@string/sfa"
+        android:textSize="90dp" />
+
+    <TextView
+        android:id="@+id/txt_sales"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_login_first"
+        android:layout_alignEnd="@+id/txt_sfa"
+        android:layout_alignRight="@+id/txt_sfa"
+        android:layout_marginBottom="22dp"
+        android:text="@string/sfa1" />
+
+    <Button
+        android:id="@+id/btn_login_first"
+        style="@style/Button"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="182dp"
+        android:gravity="center"
+        android:text="@string/btn_login"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/forgot_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/btn_login_first"
+        android:layout_alignRight="@+id/btn_login_first"
+        android:layout_below="@+id/txt_sales"
+        android:layout_marginTop="59dp"
+        android:text="@string/forgot_password" />
+
+    <Button
+        android:id="@+id/btn_create_account"
+        style="@style/Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="37dp"
+        android:paddingBottom="20dp"
+        android:text="@string/Create_New_Account"
+        android:textSize="18dp" />
+
+
+</RelativeLayout>

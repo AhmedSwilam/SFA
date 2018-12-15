@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txt_veri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="190dp"
+        android:text="@string/veri_mobile"
+        android:textSize="19dp" />
+
+    <TextView
+        android:id="@+id/txt_long"
+        android:layout_width="350dp"
+        android:layout_height="120dp"
+        android:layout_below="@+id/txt_veri"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="@string/veri_text"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/veri_code"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txt_long"
+        android:layout_alignStart="@+id/txt_long"
+        android:layout_below="@+id/txt_long"
+        android:layout_marginTop="18dp"
+        android:hint="@string/veri_code" />
+
+    <Button
+        android:id="@+id/btn_confirm"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/veri_code"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:text="@string/btn_confirm"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_confirm"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:text="@string/txt_resend"
+        android:textSize="20dp"/>
+
+
+</RelativeLayout>
